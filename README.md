@@ -46,15 +46,6 @@ portfolio-react/
         └── profile.png          # Profile picture
 ```
 
-## **🚀 Getting Started**
-
-### **1️⃣ Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/portfolio-website.git
-cd portfolio-website
-```
-
 ## **🐳 Running with Docker**
 
 To run everything in **Docker**, use:
@@ -63,6 +54,24 @@ To run everything in **Docker**, use:
 docker-compose up --build
 ```
 The site will be available at **http://localhost:3000**.
+
+## **📸 Screenshots**
+
+Homepage:
+
+![](https://github.com/user-attachments/assets/f551f109-9253-4cdc-9a42-f12f62dfbde0)
+
+Resume Overview:
+
+![](https://github.com/user-attachments/assets/aeacf41f-557a-454b-89ae-bdcbcdd03bc4)
+
+Resume Skills:
+
+![](https://github.com/user-attachments/assets/52fd3c46-8ee1-4ff6-b3bf-43ae43ef9276)
+
+Contact:
+
+![](https://github.com/user-attachments/assets/60138a25-45bd-446f-800f-da602bfbd538)
 
 ## **📜 License**
 
