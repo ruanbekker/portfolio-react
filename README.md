@@ -1,7 +1,7 @@
 
 # **📇 Portfolio Website (React)**
 
-🚀 A modern portfolio website built with **React** (frontend) and **Flask or FastAPI** (backend) for handling contact form submissions via **Mailgun**.
+🚀 A modern portfolio website built with **React**.
 
 ![Portfolio Screenshot](https://github.com/user-attachments/assets/f551f109-9253-4cdc-9a42-f12f62dfbde0)
 
