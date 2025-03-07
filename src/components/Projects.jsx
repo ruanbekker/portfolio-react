@@ -26,7 +26,7 @@ const Projects = () => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block p-4 border rounded-lg shadow-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+            className="block p-4 border rounded-lg shadow-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-300 ease-in-out transform hover:scale-105"
           >
             <h3 className="text-xl font-medium text-turquoise">{project.name}</h3>
             <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
@@ -38,4 +38,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 

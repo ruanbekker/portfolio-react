@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
 import resumeData from "../data/resume.json";
 import { FaBriefcase, FaGraduationCap, FaTools, FaCertificate } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -18,9 +17,8 @@ const Resume = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-200">
-      <Navbar />
 
-      <div className="max-w-3xl mx-auto p-6 pt-24">
+      <div className="max-w-3xl mx-auto p-6 pt-18">
         {/* Header */}
         <div className="text-center">
           <h1 className="text-4xl font-bold">{resumeData.name}</h1>
@@ -44,7 +42,7 @@ const Resume = () => {
 
         {/* Education Section */}
         <div className="mt-12">
-	        <h2 className="text-2xl font-semibold border-b pb-2 border-gray-300 dark:border-gray-700 flex items-center">
+	  <h2 className="text-2xl font-semibold border-b pb-2 border-gray-300 dark:border-gray-700 flex items-center">
             <FaGraduationCap className="mr-2 text-turquoise" /> Education
           </h2>
           {resumeData.education.map((edu, index) => (
@@ -57,7 +55,7 @@ const Resume = () => {
 
         {/* Skills Section */}
         <div className="mt-12">
-	        <h2 className="text-2xl font-semibold border-b pb-2 border-gray-300 dark:border-gray-700 flex items-center">
+	  <h2 className="text-2xl font-semibold border-b pb-2 border-gray-300 dark:border-gray-700 flex items-center">
             <FaTools className="mr-2 text-turquoise" /> Skills
           </h2>
           <div className="mt-4">
@@ -98,5 +96,6 @@ const Resume = () => {
 };
 
 export default Resume;
+
 
 
