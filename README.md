@@ -1,12 +1,86 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **📇 Portfolio Website (React)**
 
-Currently, two official plugins are available:
+🚀 A modern portfolio website built with **React** (frontend) and **Flask or FastAPI** (backend) for handling contact form submissions via **Mailgun**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Screenshot](https://github.com/user-attachments/assets/f551f109-9253-4cdc-9a42-f12f62dfbde0)
 
-## Expanding the ESLint configuration
+## **📌 Features**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌗 **Dark Mode Support**
+- 🏗 **Modern UI with Tailwind CSS**
+- 📄 **Dynamic Resume Page**
+- 📩 **Contact Form**
+- 🔗 **Smooth Hover Effects for Links**
+- 🛠 **Dockerized for Easy Deployment**
+
+## **🛠 Tech Stack**
+
+### **Frontend**
+
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🌙 Dark Mode Toggle
+
+## **📂 Project Structure**
+
+```bash
+portfolio-react/
+├── Dockerfile
+├── docker-compose.yaml          # Docker compose
+└── src
+    ├── App.jsx                  # Main react app
+    ├── components               # React components
+    │   ├── Contact.jsx          
+    │   ├── DarkModeToggle.jsx
+    │   ├── Navbar.jsx
+    │   ├── Profile.jsx
+    │   ├── Projects.jsx
+    │   ├── Resume.jsx
+    │   └── TechStack.jsx
+    ├── data
+    │   └── resume.json          # Resume data
+    ├── index.css
+    ├── main.jsx                 # Entry point
+    └── public
+        └── profile.png          # Profile picture
+```
+
+## **🐳 Running with Docker**
+
+To run everything in **Docker**, use:
+
+```bash
+docker-compose up --build
+```
+The site will be available at **http://localhost:3000**.
+
+## **📸 Screenshots**
+
+Homepage:
+
+![](https://github.com/user-attachments/assets/f551f109-9253-4cdc-9a42-f12f62dfbde0)
+
+Resume Overview:
+
+![](https://github.com/user-attachments/assets/aeacf41f-557a-454b-89ae-bdcbcdd03bc4)
+
+Resume Skills:
+
+![](https://github.com/user-attachments/assets/52fd3c46-8ee1-4ff6-b3bf-43ae43ef9276)
+
+Contact:
+
+![](https://github.com/user-attachments/assets/60138a25-45bd-446f-800f-da602bfbd538)
+
+## **📜 License**
+
+This project is open-source under the **MIT License**.
+
+## **🚀 Future Enhancements**
+
+- 📨 Add a database to store contact messages.
+- 🎭 Use animations for interactive UI.
+- 🏗 Deploy to **Vercel + Railway**.
+
+
