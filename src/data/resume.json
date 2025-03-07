@@ -1,0 +1,45 @@
+{
+  "name": "Ruan Bekker",
+  "title": "DevOps Engineer, Open Source Contributor, Golfer",
+  "summary": "Passionate about Infrastructure Automation, Open Source, and Knowledge Sharing. Experienced in Kubernetes, AWS, and DevOps tooling.",
+  "experience": [
+    {
+      "company": "Company A",
+      "position": "Senior DevOps Engineer",
+      "date": "2021 - Present",
+      "description": "Leading Cloud Infrastructure Automation and all things Kubernetes."
+    },
+    {
+      "company": "Company B",
+      "position": "DevOps Engineer",
+      "date": "2018 - 2021",
+      "description": "Built CI/CD Pipelines and Automated Cloud Deployments."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of XYZ",
+      "degree": "Bachelor's in Computer Science",
+      "date": "2014 - 2018"
+    }
+  ],
+  "skills": [
+    { "name": "Docker", "level": 5 },
+    { "name": "Kubernetes", "level": 5 },
+    { "name": "AWS", "level": 4 },
+    { "name": "Terraform", "level": 5 },
+    { "name": "Python", "level": 4 },
+    { "name": "CI/CD", "level": 5 }
+  ],
+  "certifications": [
+    {
+      "name": "Codefresh GitOps Associate",
+      "year": "2025"
+    },
+    {
+      "name": "AWS Certified Solutions Architect",
+      "year": "2022"
+    }
+  ]
+}
+
